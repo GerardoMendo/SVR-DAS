@@ -1,6 +1,11 @@
 # SVR-DAS
-ML-based method for earthquake detection and seismic phase picking from Distributed Acoustic Sensing data. The results from this 
-program are published in: Mendo - Perez, G., Nagao, H., Katoh, S., Shinohara, M. (2026). SVR-DAS: A Machine-Learning-Based Method to Create Earthquake Catalogs from Seafloor Distributed Acoustic Sensing measurements. Submitted to Earth, Planets and Space. When using this code, please cite this reference. 
+ML-based method for earthquake detection and seismic phase picking from Distributed Acoustic Sensing data. 
+
+Results obtained using this code are published in the following reference: 
+
+Mendo - Perez, G., Nagao, H., Katoh, S., Shinohara, M. (2026). SVR-DAS: A Machine-Learning-Based Method to Create Earthquake Catalogs from Seafloor Distributed Acoustic Sensing measurements. Submitted to Earth, Planets and Space. 
+
+When using this code, please cite this reference. 
 
 # Requirements
 1. Python >= 3.10
@@ -24,5 +29,5 @@ program are published in: Mendo - Perez, G., Nagao, H., Katoh, S., Shinohara, M.
 2. If downloading the data, the execution time increases drastically.
 3. When downloading data, uncomment the path_wav file in dict_params.py that contains the file 'temp' and comment or erase the other ones.
 4. If downloading the data, the program will erase the downloaded data. This ensures that the disk memory will keep the same.
-5. This program was made considering DAS data structure from OptaSense interrogators. Current modifications are being done to allow the program be     flexible to use other data formats
-6. 
+5. This program was made considering DAS data structure from OptaSense interrogators. Current modifications are being done to this program to allow     to use other data formats.
+ 
